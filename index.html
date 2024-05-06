@@ -7,14 +7,27 @@
     <title>Panel</title>
   </head>
   <body>
-    <div class="container mx-auto p-4 max-w-sm p-8 bg-slate-100 h-screen">
-      <div class="bottom-0 right-0 flex flex-col gap-2 z-50">
-        <button class="rounded-full w-14 h-14 border bg-white hover:bg-blue-200 transition-colors duration-500">1</button>
-        <button class="rounded-full w-14 h-14 border  bg-white hover:bg-blue-200 transition-colors duration-500">2</button>
-        <button class="rounded-full w-14 h-14 border  bg-white hover:bg-blue-200 transition-colors duration-500">3</button>
-        <button class="rounded-full w-14 h-14 border  bg-white hover:bg-blue-200 transition-colors duration-500">4</button>
+
+      <div class="container mx-auto p-4 max-w-sm  bg-slate-100 h-screen">
+
+          <div id="panel" class="flex flex-col">
+            <img id="imagenFondo" src="">
+            <div id="zonaCarga"></div>
+
+          </div>
+
+          <div class="bottom-0 right-0 flex flex-col gap-2 z-50">
+            <div class="flex items-center gap-2">
+              <label for="inputImagen" class="inline-flex items-center cursor-pointer rounded-full w-14 h-14 border bg-white hover:bg-blue-200 transition-colors duration-500">
+                <input type="file" id="inputImagen" accept="image/svg+xml" class="hidden">
+                <span class="text-sm">Background</span>
+              </label>
+              <button id="scrollUp" class="rounded-full w-14 h-14 border bg-white hover:bg-blue-200 transition-colors duration-500">Up</button>
+              <button id="scrollDown" class="rounded-full w-14 h-14 border bg-white hover:bg-blue-200 transition-colors duration-500">Down</button>
+            </div>
+          </div>
       </div>
-    </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
