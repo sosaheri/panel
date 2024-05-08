@@ -4,7 +4,7 @@
 
  #panel {
      width: 100%;
-     height: 700px;
+     height: 90vh;
      border: 1px solid #ccc;
      position: relative;
      overflow-y:hidden;
