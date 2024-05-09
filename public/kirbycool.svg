@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg2"
+    viewBox="0 0 744.09 1052.4"
+    version="1.1"
+  >
+  <title
+      id="title3093"
+    >Kirby</title
+  >
+  <defs
+      id="defs4"
+    >
+    <linearGradient
+        id="linearGradient3873"
+      >
+      <stop
+          id="stop3875"
+          stop-color="#f00"
+          offset="0"
+      />
+      <stop
+          id="stop3877"
+          stop-color="#f00"
+          stop-opacity="0"
+          offset="1"
+      />
+    </linearGradient
+    >
+    <radialGradient
+        id="radialGradient4377"
+        xlink:href="#linearGradient3873"
+        gradientUnits="userSpaceOnUse"
+        cy="1057.3"
+        cx="-811.43"
+        gradientTransform="matrix(1.0183 -.57199 .31489 .56057 -318.11 -24.448)"
+        r="454.56"
+    />
+    <radialGradient
+        id="radialGradient4379"
+        gradientUnits="userSpaceOnUse"
+        cy="437.42"
+        cx="445.71"
+        gradientTransform="matrix(1.1454 .022026 -.018380 .95577 -56.756 10.188)"
+        r="648.57"
+      >
+      <stop
+          id="stop3791"
+          stop-color="#ffe9fe"
+          offset="0"
+      />
+      <stop
+          id="stop3793"
+          stop-color="#ffe9fe"
+          stop-opacity="0"
+          offset="1"
+      />
+    </radialGradient
+    >
+    <radialGradient
+        id="radialGradient4383"
+        xlink:href="#linearGradient3873"
+        gradientUnits="userSpaceOnUse"
+        cy="644.01"
+        cx="-620"
+        gradientTransform="matrix(5.2927 -1.8483 .24194 .69283 2505.7 -1034)"
+        r="170.04"
+    />
+  </defs
+  >
+  <g
+      id="layer1"
+    >
+    <g
+        id="g3911"
+        transform="matrix(.32688 0 0 .32688 229.8 391.46)"
+      >
+      <g
+          id="g3881"
+          transform="matrix(.96448 -.26417 .26417 .96448 378.01 -175.97)"
+        >
+        <path
+            id="path3871"
+            d="m-402.86 695.22s-877.43 179.82-802.86 460c74.577 280.18 814.29 0 814.29 0 56.145-188.6 177.37-415.49-11.429-460z"
+            fill="#8b0000"
+        />
+        <path
+            id="path3869"
+            d="m-402.86 695.22s-877.43 179.82-802.86 460c74.577 280.18 814.29 0 814.29 0 56.145-188.6 177.37-415.49-11.429-460z"
+            fill="url(#radialGradient4377)"
+        />
+      </g
+      >
+      <g
+          id="g3799"
+        >
+        <path
+            id="path2985"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="#fdbef8"
+        />
+        <path
+            id="path3787"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+        <path
+            id="path3797"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+      </g
+      >
+      <g
+          id="g3832"
+          transform="matrix(.81818 0 0 .81818 118.44 64.585)"
+        >
+        <path
+            id="path3828"
+            d="m894.29 406.65c0 138.86-67.157 251.43-150 251.43s-150-112.57-150-251.43 67.157-251.43 150-251.43 150 112.57 150 251.43z"
+            transform="translate(-25.714 -51.429)"
+        />
+        <path
+            id="path3826"
+            d="m894.29 406.65c0 138.86-67.157 251.43-150 251.43s-150-112.57-150-251.43 67.157-251.43 150-251.43 150 112.57 150 251.43z"
+            fill="#fff"
+            transform="matrix(.58160 0 0 .58160 285.69 30.141)"
+        />
+        <path
+            id="path3830"
+            d="m605.91 391.54c129.64 106.42 169.53 38.124 216.81 0-5.6126 62.745 18.717 136.92-93.539 199.66-117.7-42.93-126.78-124.58-123.27-199.66z"
+            stroke="#000"
+            stroke-width="1.279px"
+            fill="#0000cd"
+        />
+      </g
+      >
+      <g
+          id="g3837"
+          transform="matrix(.81818 0 0 .81818 -368.57 64.585)"
+        >
+        <path
+            id="path3839"
+            d="m894.29 406.65c0 138.86-67.157 251.43-150 251.43s-150-112.57-150-251.43 67.157-251.43 150-251.43 150 112.57 150 251.43z"
+            transform="translate(-25.714 -51.429)"
+        />
+        <path
+            id="path3841"
+            d="m894.29 406.65c0 138.86-67.157 251.43-150 251.43s-150-112.57-150-251.43 67.157-251.43 150-251.43 150 112.57 150 251.43z"
+            fill="#fff"
+            transform="matrix(.58160 0 0 .58160 285.69 30.141)"
+        />
+        <path
+            id="path3843"
+            d="m605.91 391.54c129.64 106.42 169.53 38.124 216.81 0-5.6126 62.745 18.717 136.92-93.539 199.66-117.7-42.93-126.78-124.58-123.27-199.66z"
+            stroke="#000"
+            stroke-width="1.279px"
+            fill="#0000cd"
+        />
+      </g
+      >
+      <g
+          id="g3845"
+          transform="matrix(.48387 0 0 .48387 1007.7 116.33)"
+        >
+        <path
+            id="path3847"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="#fdbef8"
+        />
+        <path
+            id="path3849"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+        <path
+            id="path3851"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+      </g
+      >
+      <g
+          id="g3857"
+          transform="matrix(.48387 0 0 .48387 -123.69 650.62)"
+        >
+        <path
+            id="path3859"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="#fdbef8"
+        />
+        <path
+            id="path3861"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+        <path
+            id="path3863"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+      </g
+      >
+      <g
+          id="g3887"
+          transform="matrix(-.64640 -.17704 -.17705 .64638 738.56 166.32)"
+        >
+        <path
+            id="path3889"
+            fill="#8b0000"
+            d="m-402.86 695.22s-877.43 179.82-802.86 460c74.577 280.18 814.29 0 814.29 0 56.145-188.6 177.37-415.49-11.429-460z"
+        />
+        <path
+            id="path3891"
+            d="m-402.86 695.22s-877.43 179.82-802.86 460c74.577 280.18 814.29 0 814.29 0 56.145-188.6 177.37-415.49-11.429-460z"
+            fill="url(#radialGradient4377)"
+        />
+      </g
+      >
+      <path
+          id="path3895"
+          d="m420 683.79s214.29 48.571 234.29 17.143c20-31.429 20-28.571 20-28.571"
+          stroke="#000"
+          stroke-width="1px"
+          fill="none"
+      />
+      <path
+          id="path3897"
+          d="m420 683.79s214.29 48.571 234.29 17.143c20-31.429 20-28.571 20-28.571"
+          stroke="#000"
+          stroke-width="1px"
+          fill="none"
+      />
+      <path
+          id="path3899"
+          d="m420 683.79s214.29 48.571 234.29 17.143c20-31.429 20-28.571 20-28.571"
+          stroke="#000"
+          stroke-width="1px"
+          fill="none"
+      />
+      <path
+          id="path3901"
+          d="m420 683.79s214.29 48.571 234.29 17.143c20-31.429 20-28.571 20-28.571"
+          stroke="#000"
+          stroke-width="1px"
+          fill="none"
+      />
+      <path
+          id="path3903"
+          d="m420 683.79s214.29 48.571 234.29 17.143c20-31.429 20-28.571 20-28.571"
+          stroke="#000"
+          stroke-width="1px"
+          fill="none"
+      />
+      <path
+          id="path3905"
+          d="m420 683.79s214.29 48.571 234.29 17.143c20-31.429 20-28.571 20-28.571"
+          stroke="#000"
+          stroke-width="1px"
+          fill="none"
+      />
+      <path
+          id="path3907"
+          d="m420 683.79s214.29 48.571 234.29 17.143c20-31.429 20-28.571 20-28.571"
+          stroke="#000"
+          stroke-width="1px"
+          fill="none"
+      />
+      <path
+          id="path3909"
+          d="m420 683.79s214.29 48.571 234.29 17.143c20-31.429 20-28.571 20-28.571"
+          stroke="#000"
+          stroke-width="1px"
+          fill="none"
+      />
+    </g
+    >
+    <g
+        id="g4197"
+        transform="matrix(.41696 0 0 .41696 756.84 1778.8)"
+      >
+      <g
+          id="g4060"
+          transform="matrix(.76032 -.20825 .20825 .76032 86.934 -1447.1)"
+        >
+        <path
+            id="path4062"
+            fill="#8b0000"
+            d="m-402.86 695.22s-877.43 179.82-802.86 460c74.577 280.18 814.29 0 814.29 0 56.145-188.6 177.37-415.49-11.429-460z"
+        />
+        <path
+            id="path4064"
+            d="m-402.86 695.22s-877.43 179.82-802.86 460c74.577 280.18 814.29 0 814.29 0 56.145-188.6 177.37-415.49-11.429-460z"
+            fill="url(#radialGradient4377)"
+        />
+      </g
+      >
+      <g
+          id="g4066"
+          transform="matrix(.78833 0 0 .78833 -211.06 -1308.3)"
+        >
+        <path
+            id="path4068"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="#fdbef8"
+        />
+        <path
+            id="path4070"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+        <path
+            id="path4072"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+      </g
+      >
+      <g
+          id="g3820"
+          transform="translate(-240 -1397.1)"
+        >
+        <path
+            id="path3804"
+            fill="#8b0000"
+            d="m342.86 429.51s-51.429-111.43-117.14-142.86c-65.72-31.43-200.06-50.81-217.15-85.72-17.795-36.34 12.453 180.01 114.29 217.15 89.232 32.545 218.99 35.617 220 11.429z"
+        />
+        <path
+            id="path3806"
+            d="m342.86 429.51s-51.429-111.43-117.14-142.86c-65.72-31.43-200.06-50.81-217.15-85.72-17.795-36.34 12.453 180.01 114.29 217.15 89.232 32.545 218.99 35.617 220 11.429z"
+            fill="url(#radialGradient4383)"
+        />
+      </g
+      >
+      <g
+          id="g4178"
+          transform="matrix(-1.0391 0 0 1 564.83 -1388.6)"
+        >
+        <path
+            id="path4180"
+            d="m342.86 429.51s-51.429-111.43-117.14-142.86c-65.72-31.43-200.06-50.81-217.15-85.72-17.795-36.34 12.453 180.01 114.29 217.15 89.232 32.545 218.99 35.617 220 11.429z"
+            fill="#8b0000"
+        />
+        <path
+            id="path4182"
+            d="m342.86 429.51s-51.429-111.43-117.14-142.86c-65.72-31.43-200.06-50.81-217.15-85.72-17.795-36.34 12.453 180.01 114.29 217.15 89.232 32.545 218.99 35.617 220 11.429z"
+            fill="url(#radialGradient4383)"
+        />
+      </g
+      >
+      <g
+          id="g4090"
+          transform="matrix(.38145 0 0 .38145 583.37 -1216.6)"
+        >
+        <path
+            id="path4092"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="#fdbef8"
+        />
+        <path
+            id="path4094"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+        <path
+            id="path4096"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+      </g
+      >
+      <g
+          id="g4192"
+          stroke="#000"
+          transform="translate(-25.714 -42.857)"
+        >
+        <path
+            id="path4186"
+            d="m54.286-841.92s80 37.143 111.43 40c31.429 2.8571 177.14-5.7143 177.14-5.7143"
+            stroke-width="1px"
+            fill="none"
+        />
+        <path
+            id="path4188"
+            d="m60-839.07-22.857 160 117.14-125.71-48.571-11.429-17.143-11.429z"
+            stroke-width="1px"
+            fill="#fff"
+        />
+        <path
+            id="path4190"
+            d="m349.07-809.47-22.082 160.49-89.712-158.83 55.769 5.1018 21.844-5.2685z"
+            stroke-width="1.0622px"
+            fill="#fff"
+        />
+      </g
+      >
+      <g
+          id="g4098"
+          transform="matrix(.38145 0 0 .38145 -308.57 -795.43)"
+        >
+        <path
+            id="path4100"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="#fdbef8"
+        />
+        <path
+            id="path4102"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+        <path
+            id="path4104"
+            d="m1128.6 452.36c0 342.42-290.38 620-648.57 620-358.2 0-648.57-277.58-648.57-620s290.38-620 648.57-620c358.2 0 648.57 277.58 648.57 620z"
+            fill="url(#radialGradient4379)"
+        />
+      </g
+      >
+      <g
+          id="g4106"
+          transform="matrix(-.50958 -.13957 -.13957 .50956 371.16 -1177.2)"
+        >
+        <path
+            id="path4108"
+            d="m-402.86 695.22s-877.43 179.82-802.86 460c74.577 280.18 814.29 0 814.29 0 56.145-188.6 177.37-415.49-11.429-460z"
+            fill="#8b0000"
+        />
+        <path
+            id="path4110"
+            d="m-402.86 695.22s-877.43 179.82-802.86 460c74.577 280.18 814.29 0 814.29 0 56.145-188.6 177.37-415.49-11.429-460z"
+            fill="url(#radialGradient4377)"
+        />
+      </g
+      >
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Kirby</dc:title
+        >
+        <dc:date
+          >2013-10-20T21:45:25</dc:date
+        >
+        <dc:description
+          >Kirby</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/185243/kirby-by-rdragon-185243</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >rdragon</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >king dedede</rdf:li
+            >
+            <rdf:li
+              >kirby</rdf:li
+            >
+            <rdf:li
+              >nintendo</rdf:li
+            >
+            <rdf:li
+              >waddle dee</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
