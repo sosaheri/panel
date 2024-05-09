@@ -1,5 +1,5 @@
 import { Layer } from './interfaces/Layer';
-// import { renderLayers } from './renderLayers'; // Assuming 'layers' is exported from 'layers.ts'
+import * as d3 from 'd3';
 
 
 let layers: Layer[] = [];
@@ -34,33 +34,25 @@ export function updateLayerPosition(layerId: string, x: number, y: number): void
   }
 }
 
-  export function renderLayers() {
-    const svgContainer = document.getElementById('svg-container');
-    svgContainer.innerHTML = '';
+export function renderLayers() {
+  const svgContainer = document.getElementById('svg-container');
+  svgContainer.innerHTML = '';
 
-    layers.forEach((layer, index) => {
-      const svgElement = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-      svgElement.setAttribute('width', '100%');
-      svgElement.setAttribute('height', '100%');
-       svgElement.setAttribute('id', `svg-${layer.id}`);
+  layers.forEach((layer, index) => {
+    const svgElement = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svgElement.setAttribute('width', '100%');
+    svgElement.setAttribute('height', '100%');
+      svgElement.setAttribute('id', `svg-${layer.id}`);
 
-      const imageElement = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-      imageElement.setAttributeNS('http://www.w3.org/1999/xlink', 'href', layer.image);
-      imageElement.setAttribute('x', `${layer.x}`);
-      imageElement.setAttribute('y', `${layer.y}`);
+    const imageElement = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+    imageElement.setAttributeNS('http://www.w3.org/1999/xlink', 'href', layer.image);
+    imageElement.setAttribute('x', `${layer.x}`);
+    imageElement.setAttribute('y', `${layer.y}`);
 
-      imageElement.style.zIndex = `${index}`;
+    imageElement.style.zIndex = `${index}`;
 
-      svgElement.appendChild(imageElement);
-      svgContainer.appendChild(svgElement);
-    });
-  }
-
-  export function moveLayer(layerId: string, deltaX: number, deltaY: number) {
-  const layerIndex = layers.findIndex((layer) => layer.id === layerId);
-  if (layerIndex !== -1) {
-    layers[layerIndex].x += deltaX;
-    layers[layerIndex].y += deltaY;
-    renderLayers(); // Re-render to update positions
-  }
+    svgElement.appendChild(imageElement);
+    svgContainer.appendChild(svgElement);
+  });
 }
+
