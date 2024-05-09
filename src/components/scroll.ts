@@ -3,27 +3,41 @@ export function initScroll() {
     const scrollUpButton = document.getElementById('scrollUp');
     const scrollDownButton = document.getElementById('scrollDown');
 
-    let imageTopPosition = 0; // Keeps track of the current image position
+    let imageTopPosition = 0;
 
     scrollUpButton.addEventListener('click', () => {
-        imageTopPosition += 600; // Adjust scrolling amount based on your needs
-        document.getElementById('imagenFondo').style.top = `${imageTopPosition}px`;
+        const imageHeight = document.getElementById('backgroundImage').clientHeight; 
+        const panelHeight = document.getElementById('panel').clientHeight;
 
-        // Ensure image doesn't scroll above the top of the panel
+        let backgroundImage = document.getElementById('backgroundImage').style.top; 
+        let backgroundImagetemp = backgroundImage.slice(0, -2);
+        let top = parseInt(backgroundImagetemp);
+        
+        imageTopPosition = top + panelHeight;
+        document.getElementById('backgroundImage').style.top = `${imageTopPosition}px`;
+
         if (imageTopPosition > 0) {
-        imageTopPosition = 0;
-        document.getElementById('imagenFondo').style.top = `${imageTopPosition}px`;
+            imageTopPosition = 0;
+            document.getElementById('backgroundImage').style.top = `${imageTopPosition}px`;
         }
     });
 
     scrollDownButton.addEventListener('click', () => {
-        const imageHeight = document.getElementById('imagenFondo').clientHeight; // Get image height
-        const panelHeight = document.getElementById('panel').clientHeight; // Get panel height
+        const imageHeight = document.getElementById('backgroundImage').clientHeight; 
+        const panelHeight = document.getElementById('panel').clientHeight;
 
-        // Check if scrolling down is necessary based on image and panel heights
-        if (imageHeight > panelHeight && imageTopPosition < imageHeight - panelHeight) {
-        imageTopPosition -= 600; // Adjust scrolling amount based on your needs
-        document.getElementById('imagenFondo').style.top = `${imageTopPosition}px`;
+        let backgroundImage = document.getElementById('backgroundImage').style.top; 
+        let backgroundImagetemp = backgroundImage.slice(0, -2);
+        let top = parseInt(backgroundImagetemp);
+
+        const bottom = top - panelHeight;
+
+        if ( -imageHeight > bottom) {
+            imageTopPosition = -imageHeight; 
+            document.getElementById('backgroundImage').style.top = `${imageTopPosition}px`;
+        } else {
+             imageTopPosition = bottom; 
+            document.getElementById('backgroundImage').style.top = `${imageTopPosition}px`;
         }
     });
 }
