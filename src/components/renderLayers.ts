@@ -1,4 +1,4 @@
-import { layers } from 'layers'; // Assuming 'layers' is exported from 'layers.ts'
+import { layers } from './layers'; // Assuming 'layers' is exported from 'layers.ts'
 
 export function renderLayers() {
   const svgContainer = document.getElementById('svg-container'); // Assuming this exists in your HTML
