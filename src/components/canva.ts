@@ -2,6 +2,9 @@ import * as d3 from 'd3';
 
 export function initCanva() {
 
+var circle;
+var circleID;
+
 var width = 200;
 var height = 200;
 var radius = 30;
@@ -18,10 +21,18 @@ var svg = svgContainer.append("svg")
   .style("height", "90vh") 
   .style("border", "5px solid red");
 
-svgContainer.selectAll("circle")
+d3.select("body").append("div").attr("id", "circle_id").text("Circle ID: ");
+d3.select("body").append("div").attr("id", "x_var").text("x: ");
+d3.select("body").append("div").attr("id", "y_var").text("y: ");
+
+d3.select("circle_id").append("span").attr("id", "circle_id_text").text("Circle ID: ");
+d3.select("x_var").append("span").attr("id", "x_var").text("x_coord");
+d3.select("y_var").append("span").attr("id", "y_var").text("y_coord");
+
+svg.selectAll("circle")
     .data([{x: 50, y:50}, {x: 150, y: 150}])
     .enter()
-    .append<SVGCircleElement>("circle")
+    .append("circle")
     .attr("r", radius)
     .attr("cx", function(d){ return d.x; })
     .attr("cy", function(d){ return d.y; })
@@ -38,7 +49,7 @@ function dragend(d) {
 }
 
 function dragmove(d) {
-    circle = d3.select(this);
+    // circle = d3.select(this);
     circleID = circle.attr("id");
 
     d.x = Math.max(radius, Math.min(width - radius, d3.event.x));
